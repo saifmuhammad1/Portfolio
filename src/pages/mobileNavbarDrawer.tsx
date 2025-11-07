@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import DrakModeToggleButton from '../components/drakModeToggleButton'
 
 const MobileNavbarDrawer = () => {
- const [open, setOpen] = useState(true)
+ const [open, setOpen] = useState(false)
 
   return (
     <div>

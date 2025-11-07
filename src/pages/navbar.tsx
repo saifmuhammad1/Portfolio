@@ -6,7 +6,7 @@ import DrakModeToggleButton from '../components/drakModeToggleButton';
 
 
 function Navbar() {
-
+const scrollToSection = (id:string) => { const element = document.getElementById(id); if (element) { element.scrollIntoView({ behavior: "smooth" }); } };
 
   return (
 
@@ -21,7 +21,8 @@ function Navbar() {
 
     <div className='hidden   md:flex space-x-2 items-center gap-2 text-gray-600  '>
       <div className='flex gap-12'>
-      <a href="">About</a>
+
+      <button onClick={() => scrollToSection("About")} className="" > About </button>
         <a href="">Work</a>
           <a href="">Testimonial</a>
             <a href="">Contact</a>
