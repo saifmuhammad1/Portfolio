@@ -2,9 +2,9 @@ import React from 'react'
 import userProfile from "../asset/image/WhatsApp Image 2025-11-07 at 8.39.10 AM (1).jpeg"
 function About() {
   return (
-    <div className='flex flex-col bg-gray-50 dark:bg-gray-900 px-10 py-10 md:px-20 gap-3' id="About">
+    <div className='flex flex-col bg-gray-50 dark:bg-gray-900 px-10 py-10 md:px-20 gap-3 ' id="About">
       <div className='flex  justify-center'><p className=' py-1 px-3 rounded-full bg-gray-600  dark:bg-gray-400 text-gray-200 w-fit  '>About Me</p></div>
-    <div className='h-screen grid  grid-cols-1 md:grid-cols-2 gap-2 items-center '>
+    <div className=' grid  grid-cols-1 md:grid-cols-2 md:gap-2 gap-4  items-center '>
    <div className="flex justify-center relative w-48 h-58 md:w-64 md:h-74 mx-auto col-span-1 ">
     <div className="absolute top-4 right-4 w-full h-full bg-gray-400 dark:bg-gray-700 rounded-sm"></div>
     <img
