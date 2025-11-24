@@ -1,10 +1,12 @@
-
-import './index.css';
-import Home from './pages/home';
+import "./index.css";
+import Home from "./pages/home";
+import Layout from "./pages/layouts";
 
 function App() {
   return (
-  <Home />
+    <Layout>
+      <Home />
+    </Layout>
   );
 }
 
